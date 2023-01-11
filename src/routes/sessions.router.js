@@ -6,4 +6,4 @@ const router = Router()
 router.post("/register",sessionsController.register)
 router.post("/login",sessionsController.login)
 
-import default router
+export default router
